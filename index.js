@@ -23,4 +23,6 @@ function save() {
 
 function clearAll() {
     entries.textContent = 'Entries:'
+    countedElements.textContent = 0;
+    count = 0;
 }
