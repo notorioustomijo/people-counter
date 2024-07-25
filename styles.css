@@ -32,22 +32,27 @@ h2 {
     margin: 12px;
 }
 
+h3 {
+    margin-top: 40px;
+}
+
 .button-container {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 12px;
 }
 
 .btn {
-    width: 30%;
     font-family: inherit;
-    font-size: 16px;
+    width: 45%;
+    font-size: 14px;
     padding: 16px 32px;
     font-weight: 700;
     color: white;
     border-radius: 8px;
     border: none;
+    margin: 8px;
 }
 
 .btn-increment {
@@ -58,6 +63,10 @@ h2 {
     background-color: #770b0b;
 }
 
-.btn-clear {
+.btn-save {
     background-color: #dcc412;
+}
+
+.btn-reset {
+    background-color: #0d0d0d;
 }
