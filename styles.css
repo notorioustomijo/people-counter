@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    background: url(./assets/davide-ragusa-gcDwzUGuUoI-unsplash.jpg)
+
+}
+
+.counter-container {
+    width: 500px;
+    margin: 250px auto;
+    padding: 56px;
+    box-shadow: 4px 4px 4px #0000006a;
+    border-radius: 16px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #444;
+    margin: 12px;
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #0d0d0d;
+    margin: 12px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 12px;
+}
+
+.btn {
+    width: 30%;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-increment {
+    background-color: #0f620f;
+}
+
+.btn-decrement {
+    background-color: #770b0b;
+}
+
+.btn-clear {
+    background-color: #dcc412;
+}
